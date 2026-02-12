@@ -25,7 +25,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-container flex items-center justify-between h-14 px-6 md:px-12 lg:px-20">
+      <div className="max-container flex items-center justify-between h-14 px-6">
         <a href="#hero" className="flex flex-col">
           <span className="font-semibold text-sm text-foreground leading-tight">Eugene Kasimov</span>
           <span className="text-[11px] text-muted-foreground leading-tight">Former Shopify Flagship Themes Developer</span>
