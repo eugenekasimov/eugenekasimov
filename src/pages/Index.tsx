@@ -1,4 +1,6 @@
 import { ArrowRight, Mail, Linkedin, Calendar, Zap, Layers, Wrench, Shield, CheckCircle2 } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import AboutSection from "@/components/AboutSection";
 
 const CALENDLY_URL = "#";
 const EMAIL = "hello@example.com";
@@ -7,8 +9,9 @@ const LINKEDIN_URL = "#";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Navbar />
       {/* Hero */}
-      <section className="section-padding min-h-[90vh] flex items-center">
+      <section id="hero" className="section-padding min-h-[90vh] flex items-center pt-28">
         <div className="max-container">
           <div className="inline-block mb-6 px-3 py-1 rounded-full border border-border text-xs font-medium tracking-wide text-muted-foreground uppercase">
             Ex-Shopify Flagship Themes Engineer
@@ -36,7 +39,7 @@ const Index = () => {
       </div>
 
       {/* Authority */}
-      <section className="section-padding">
+      <section id="authority" className="section-padding">
         <div className="max-container">
           <h2 className="text-3xl md:text-4xl font-bold mb-10">
             Built the Themes Millions of Stores Use
@@ -62,8 +65,15 @@ const Index = () => {
         <hr className="border-border" />
       </div>
 
+      {/* About */}
+      <AboutSection />
+
+      <div className="max-container px-6 md:px-12 lg:px-20">
+        <hr className="border-border" />
+      </div>
+
       {/* Services */}
-      <section className="section-padding">
+      <section id="services" className="section-padding">
         <div className="max-container">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">What I Help With</h2>
           <p className="text-muted-foreground mb-12 text-lg">Focused, high-impact Shopify theme work.</p>
@@ -136,7 +146,7 @@ const Index = () => {
       </div>
 
       {/* Process */}
-      <section className="section-padding">
+      <section id="process" className="section-padding">
         <div className="max-container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">Simple, Clear Process</h2>
           <div className="grid gap-0">
@@ -191,7 +201,7 @@ const Index = () => {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
+      <section id="cta" className="section-padding bg-primary text-primary-foreground">
         <div className="max-container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Improve Your Store</h2>
           <p className="text-lg opacity-80 mb-10 max-w-lg mx-auto">
