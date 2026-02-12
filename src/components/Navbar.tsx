@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 
 const NAV_ITEMS = [
-  { label: "Hero", href: "#hero" },
-  { label: "Authority", href: "#authority" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Process", href: "#process" },
-  { label: "CTA", href: "#cta" },
+  { label: "How It Works", href: "#process" },
+  { label: "Contact", href: "#contact" },
+  { label: "Book a Call", href: "#cta" },
 ];
 
 const Navbar = () => {
@@ -27,8 +26,9 @@ const Navbar = () => {
       }`}
     >
       <div className="max-container flex items-center justify-between h-14 px-6 md:px-12 lg:px-20">
-        <a href="#hero" className="font-semibold text-sm text-foreground">
-          Eugene
+        <a href="#hero" className="flex flex-col">
+          <span className="font-semibold text-sm text-foreground leading-tight">Eugene Kasimov</span>
+          <span className="text-[11px] text-muted-foreground leading-tight">Former Shopify Flagship Themes Developer</span>
         </a>
         <ul className="hidden md:flex items-center gap-6">
           {NAV_ITEMS.map(({ label, href }) => (

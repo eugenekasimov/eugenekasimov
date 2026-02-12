@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, Linkedin, Calendar, Zap, Layers, Wrench, Shield, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Mail, Linkedin, Calendar, Zap, Layers, Wrench, Shield } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/AboutSection";
 
@@ -38,34 +38,7 @@ const Index = () => {
         <hr className="border-border" />
       </div>
 
-      {/* Authority */}
-      <section id="authority" className="section-padding">
-        <div className="max-container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-10">
-            Built the Themes Millions of Stores Use
-          </h2>
-          <div className="grid gap-4 md:grid-cols-2">
-            {[
-              "Part of the Shopify Flagship Themes team",
-              "Top-5 contributor to the Dawn theme",
-              "Helped build Horizon from scratch",
-              "Deep experience in Online Store 2.0 architecture",
-              "Focus on performance, accessibility, and maintainability",
-            ].map((item) => (
-              <div key={item} className="flex items-start gap-3 py-3">
-                <CheckCircle2 className="w-5 h-5 text-accent mt-0.5 shrink-0" />
-                <span className="text-base md:text-lg">{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <div className="max-container px-6 md:px-12 lg:px-20">
-        <hr className="border-border" />
-      </div>
-
-      {/* About */}
+      {/* About (includes Authority) */}
       <AboutSection />
 
       <div className="max-container px-6 md:px-12 lg:px-20">
@@ -218,7 +191,7 @@ const Index = () => {
       </section>
 
       {/* Contact */}
-      <footer className="section-padding-sm border-t border-border">
+      <footer id="contact" className="section-padding-sm border-t border-border">
         <div className="max-container flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} · Shopify Dawn Expert
