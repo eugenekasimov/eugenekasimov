@@ -4,19 +4,407 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopify Dawn Expert — Theme Optimization & Custom Development</title>
-    <meta name="description" content="Former Shopify Flagship Themes developer. Top-5 Dawn contributor. I help merchants build faster, cleaner, higher-converting storefronts on Online Store 2.0." />
-    <meta name="keywords" content="Shopify theme developer, Dawn customization expert, Shopify performance optimization, Online Store 2.0 developer, Shopify theme support" />
-    <meta name="author" content="Shopify Dawn Expert" />
+    <meta
+      name="description"
+      content="Former Shopify Flagship Themes developer. Top-5 Dawn contributor. I help merchants build faster, cleaner, higher-converting storefronts on Online Store 2.0."
+    />
+    <meta
+      name="keywords"
+      content="Shopify theme developer, Shopify theme customization expert, Shopify performance optimization, Online Store developer, Shopify theme support"
+    />
+    <meta name="author" content="Shopify Expert" />
 
-    <meta property="og:title" content="Shopify Dawn Expert — Theme Optimization & Custom Development" />
-    <meta property="og:description" content="Former Shopify Flagship Themes developer helping brands optimize & extend Dawn." />
+    <meta
+      property="og:title"
+      content="Shopify Expert — Theme Optimization & Custom Development"
+    />
+    <meta
+      property="og:description"
+      content="Former Shopify Flagship Themes developer helping brands optimize & extend Dawn."
+    />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="assets/index.css" />
   </head>
 
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="page">
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="navbar-inner">
+          <a href="#hero" class="navbar-brand">
+            <span class="navbar-brand-name">Eugene Kasimov</span>
+            <span class="navbar-brand-tagline">
+              Former Shopify Flagship Themes Developer
+            </span>
+          </a>
+
+          <ul class="nav-links">
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li>
+              <a href="#process" class="nav-link">How It Works</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li>
+              <a
+                href="https://calendly.com/eugenekasimov/new-meeting"
+                class="nav-link"
+                >Book a Call</a
+              >
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="navbar-menu-btn"
+            aria-label="Open menu"
+            data-nav-open
+          >
+            &#9776;
+          </button>
+        </div>
+
+        <div class="mobile-menu-overlay" aria-hidden="true"></div>
+        <div class="mobile-menu-panel" aria-hidden="true">
+          <button
+            type="button"
+            class="navbar-menu-btn"
+            aria-label="Close menu"
+            data-nav-close
+            style="position: absolute; top: 1rem; right: 1rem"
+          >
+            &#10005;
+          </button>
+          <ul class="mobile-menu-links">
+            <li>
+              <a href="#about" class="mobile-menu-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="mobile-menu-link">Services</a>
+            </li>
+            <li>
+              <a href="#process" class="mobile-menu-link">How It Works</a>
+            </li>
+            <li>
+              <a href="#contact" class="mobile-menu-link">Contact</a>
+            </li>
+            <li>
+              <a
+                href="https://calendly.com/eugenekasimov/new-meeting"
+                class="mobile-menu-link"
+                >Book a Call</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section id="hero" class="section-padding hero">
+        <div class="max-container">
+          <div class="hero-badge">Ex-Shopify Flagship Themes Engineer</div>
+          <h1 class="hero-title text-balance">
+            Helping Brands Optimize &amp; Extend Shopify Themes
+          </h1>
+          <p class="hero-subtitle">
+            Top-5 contributor to Dawn and core contributor to Horizon. I help
+            Shopify merchants build faster, cleaner, and higher-converting
+            storefronts.
+          </p>
+          <a
+            href="https://calendly.com/eugenekasimov/new-meeting"
+            class="btn-primary"
+          >
+            Book a Free Store Review
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+      <div class="divider">
+        <hr />
+      </div>
+
+      <!-- About -->
+      <section id="about" class="section-padding">
+        <div class="max-container">
+          <div class="about-layout">
+            <img src="public/ek.jpeg" alt="Eugene" class="about-image" />
+            <div class="about-content">
+              <h2 class="section-title">Hi, I'm Eugene</h2>
+              <div class="about-text">
+                <p>
+                  I spent several years working on Shopify's Flagship Themes
+                  team, contributing to Dawn (top-5 contributor) and helping
+                  build Horizon from scratch. The code I shipped there now
+                  powers millions of online stores worldwide.
+                </p>
+                <p>
+                  Working inside Shopify gave me a deep understanding of modern
+                  theme architecture, Online Store 2.0, performance
+                  optimization, accessibility (including WCAG compliance), and
+                  how real merchants actually use their storefronts.
+                </p>
+                <p>
+                  Today, I work directly with brands who want more than quick
+                  fixes. I bring the same production-grade standards to every
+                  merchant project — architected Liquid, clean and maintainable
+                  code, fast load times, and minimal technical debt.
+                </p>
+                <p>Based in Alberta, I work with Shopify brands globally.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="section-title-sm">
+            Built the Themes Millions of Stores Use
+          </h3>
+          <div class="authority-grid">
+            <div class="authority-item">
+              <span class="authority-icon" aria-hidden="true">•</span>
+              <span class="authority-text">
+                Part of the Shopify Flagship Themes team
+              </span>
+            </div>
+            <div class="authority-item">
+              <span class="authority-icon" aria-hidden="true">•</span>
+              <span class="authority-text">
+                Top-5 contributor to the Dawn theme
+              </span>
+            </div>
+            <div class="authority-item">
+              <span class="authority-icon" aria-hidden="true">•</span>
+              <span class="authority-text">
+                Helped build Horizon from scratch
+              </span>
+            </div>
+            <div class="authority-item">
+              <span class="authority-icon" aria-hidden="true">•</span>
+              <span class="authority-text">
+                Deep experience in Online Store 2.0 architecture
+              </span>
+            </div>
+            <div class="authority-item">
+              <span class="authority-icon" aria-hidden="true">•</span>
+              <span class="authority-text">
+                Focus on performance, accessibility, and maintainability
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider">
+        <hr />
+      </div>
+
+      <!-- Services -->
+      <section id="services" class="section-padding">
+        <div class="max-container">
+          <h2 class="section-title">What I Help With</h2>
+          <p class="section-intro">Focused, high-impact Shopify theme work.</p>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-card-icon" aria-hidden="true"></div>
+              <h3 class="service-card-title">
+                Theme Optimization &amp; Performance
+              </h3>
+              <ul class="service-card-list">
+                <li>Speed improvements</li>
+                <li>Removing app bloat</li>
+                <li>Mobile UX refinement</li>
+                <li>Lighthouse improvements</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-card-icon" aria-hidden="true"></div>
+              <h3 class="service-card-title">Custom Section Development</h3>
+              <ul class="service-card-list">
+                <li>Landing page components</li>
+                <li>Product page enhancements</li>
+                <li>Custom blocks</li>
+                <li>UX upgrades</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-card-icon" aria-hidden="true"></div>
+              <h3 class="service-card-title">
+                Theme Cleanup &amp; Refactoring
+              </h3>
+              <ul class="service-card-list">
+                <li>Fix messy Liquid</li>
+                <li>Improve maintainability</li>
+                <li>Remove unused code</li>
+                <li>Reduce technical debt</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-card-icon" aria-hidden="true"></div>
+              <h3 class="service-card-title">Ongoing Theme Support</h3>
+              <ul class="service-card-list">
+                <li>Monthly retainer</li>
+                <li>Priority updates</li>
+                <li>Emergency fixes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider">
+        <hr />
+      </div>
+
+      <!-- Process -->
+      <section id="process" class="section-padding">
+        <div class="max-container">
+          <h2 class="section-title">Simple, Clear Process</h2>
+          <div class="process-list">
+            <div class="process-step">
+              <span class="process-step-num">01</span>
+              <div>
+                <h3 class="process-step-title">Store Review</h3>
+                <p class="process-step-desc">
+                  I audit your theme for performance, UX, and code quality.
+                </p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="process-step-num">02</span>
+              <div>
+                <h3 class="process-step-title">Scope &amp; Proposal</h3>
+                <p class="process-step-desc">
+                  You get a clear breakdown of work, timeline, and cost.
+                </p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="process-step-num">03</span>
+              <div>
+                <h3 class="process-step-title">Development</h3>
+                <p class="process-step-desc">
+                  Clean, tested code — delivered in focused sprints.
+                </p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="process-step-num">04</span>
+              <div>
+                <h3 class="process-step-title">QA &amp; Launch</h3>
+                <p class="process-step-desc">
+                  Thorough testing across devices before going live.
+                </p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="process-step-num">05</span>
+              <div>
+                <h3 class="process-step-title">Ongoing Support</h3>
+                <p class="process-step-desc">
+                  Optional retainer for continuous improvements.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider">
+        <hr />
+      </div>
+
+      <!-- Pricing -->
+      <section class="section-padding">
+        <div class="max-container">
+          <h2 class="section-title">Transparent Pricing</h2>
+          <div class="pricing-table-wrap">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  <th>Service</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="cell-label">Theme Enhancements</td>
+                  <td class="cell-muted">Projects typically start at $800</td>
+                </tr>
+                <tr>
+                  <td class="cell-label">Custom Section Development</td>
+                  <td class="cell-muted">$1,500 – $5,000 depending on scope</td>
+                </tr>
+                <tr>
+                  <td class="cell-label">Ongoing Theme Support</td>
+                  <td class="cell-muted">
+                    Monthly retainers available for long-term partners
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="pricing-note">
+            Every project starts with a free store review. No surprises.
+          </p>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="cta" class="section-padding cta-section">
+        <div class="max-container">
+          <h2 class="section-title">Let's Improve Your Store</h2>
+          <p class="section-intro">
+            Book a free 15-minute call and I'll share 3 actionable improvements
+            for your theme.
+          </p>
+          <a
+            href="https://calendly.com/eugenekasimov/new-meeting"
+            class="btn-primary btn-primary-inverse"
+          >
+            Book a Call
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact / Footer -->
+      <footer id="contact" class="section-padding-sm footer">
+        <div class="max-container footer-inner">
+          <p class="footer-copyright">
+            © <span data-year></span> · Shopify Theme Expert
+          </p>
+          <div class="footer-links">
+            <a href="mailto:eugenekasimov@gmail.com" class="footer-link">
+              Email
+            </a>
+            <a
+              href="https://calendly.com/eugenekasimov/new-meeting"
+              class="footer-link"
+            >
+              Calendly
+            </a>
+            <a
+              href="https://www.linkedin.com/in/eugene-kasimov-aa031136/"
+              class="footer-link"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/main.js" defer></script>
   </body>
 </html>
