@@ -115,33 +115,6 @@ const Index = () => {
         <hr />
       </div>
 
-      {/* Experience */}
-      <section className="section-padding">
-        <div className="max-container">
-          <h2 className="section-title">Deep Experience in Shopify Themes</h2>
-          <div className="experience-text">
-            <p>
-              As a core member of the Shopify Flagship Themes team, I've
-              contributed directly to the code that powers millions of online
-              stores worldwide.
-            </p>
-            <p>
-              From architecting performant Liquid templates to ensuring WCAG
-              accessibility compliance, my work on Dawn and Horizon has been
-              focused on production-grade quality at scale.
-            </p>
-            <p>
-              I bring that same standard of engineering to every merchant
-              project — clean code, fast load times, and zero technical debt.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div className="divider">
-        <hr />
-      </div>
-
       {/* Process */}
       <section id="process" className="section-padding">
         <div className="max-container">

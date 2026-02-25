@@ -23,17 +23,20 @@ const AboutSection = () => (
             <p>
               I spent several years working on Shopify's Flagship Themes team,
               contributing to Dawn (top-5 contributor) and helping build Horizon
-              from scratch.
+              from scratch. The code I shipped there now powers millions of
+              online stores worldwide.
             </p>
             <p>
               Working inside Shopify gave me a deep understanding of modern
               theme architecture, Online Store 2.0, performance optimization,
-              and how real merchants actually use their storefronts.
+              accessibility (including WCAG compliance), and how real merchants
+              actually use their storefronts.
             </p>
             <p>
               Today, I work directly with brands who want more than quick fixes.
-              I help merchants improve performance, clean up technical debt, and
-              build storefronts that are scalable, fast, and conversion-focused.
+              I bring the same production-grade standards to every merchant
+              project — architected Liquid, clean and maintainable code, fast
+              load times, and minimal technical debt.
             </p>
             <p>Based in Alberta, I work with Shopify brands globally.</p>
           </div>

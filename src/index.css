@@ -135,6 +135,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  margin-block: 20px;
   z-index: 50;
   transition:
     background 0.2s,
@@ -179,13 +180,13 @@ h6 {
 
 .navbar-brand-name {
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 2;
   color: hsl(var(--foreground));
 }
 
 .navbar-brand-tagline {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.25;
   color: hsl(var(--muted-foreground));
 }
