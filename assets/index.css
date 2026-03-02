@@ -338,12 +338,6 @@ h6 {
   align-items: center;
 }
 
-@supports (height: 100dvh) {
-  .hero {
-    min-height: 90dvh;
-  }
-}
-
 .hero-badge {
   display: inline-block;
   margin-bottom: 1.5rem;
